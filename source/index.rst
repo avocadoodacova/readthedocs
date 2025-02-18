@@ -6,7 +6,8 @@
 Welcome to the shademap-readthedocs documentation!
 ==================================================
 
-This is a start to finish **tutorial**, to *reproduce* the 3D shademap <https://shadowmap.catch4d.de/iframe.html>
+This is a start to finish **tutorial**, to *reproduce* the `3D shademap <https://shadowmap.catch4d.de/iframe.html>`_.
+
 
 .. note::
    This project is under active development.
@@ -20,3 +21,10 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
+Contents
+--------
+
+.. toctree::
+
+   Introduction
+   Resources
