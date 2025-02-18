@@ -3,10 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-shademap-readthedocs documentation
-==================================
+Welcome to the shademap-readthedocs documentation!
+==================================================
 
-MoinMoin
+This is a start to finish **tutorial**, to *reproduce* the 3D shademap <https://shadowmap.catch4d.de/iframe.html>
+
+.. note::
+   This project is under active development.
 
 Add your content using ``reStructuredText`` syntax. See the
 `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
