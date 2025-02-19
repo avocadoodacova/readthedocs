@@ -7,14 +7,14 @@ This documentation guides through an approach to address this issue by visualisi
 
 Two main data sources are used to conduct this work, which are the **3D building data in CityGML format** and the **2D vegetation cadastre layer in shapefile format**. Additionally, **LiDAR data** is used to generate a normalised digital elevation model (nDSM), which is later used to extract the actual height values to the tree point layer. The calculation of the shadow cast is done by ESRIS shadow cast widget from the `ArcGIS API for JavaScript <https://developers.arcgis.com/javascript/latest/api-reference/esri-widgets-ShadowCast.html#methods-summary>`_.
 
-Aim
----
+1.1 Aim
+-------
 
 This approach is aiming to generate a threedimensional and interactive web map of the **city of Dortmund**, built upon an preexisting 3D building model in LoD2 format. For a precise shadow analysis and estimation of shaded areas in a city, the approach also includes the generation and visualization of a 3D tree dataset. The overall aim of this documentation is to serve as a guided workflow, to **replicate the shadowmap for other cities**. 
 
 
-Results
--------
+1.2 Results
+-----------
 
 The result of this approach is a three-dimensional web representation of the **city of Dortmund**, with the extended option of visualising the urban shadow cast of trees and buildings. Individual parameters such as **date** and **time** can be set individually by the user. Thus, it is possible to **a) visualize the shadow** and **b) understand the exact time of the shadow at a certain place.** 
 
@@ -22,9 +22,3 @@ The results demonstrate that urban shadow modelling is an effective method of id
 
 
 **Keywords:** *Urban Shadow Modelling, 3D Modelling at city scale, Urban Vegetation Modelling, Interactive Web Map, LiDAR, ArcGIS SDK for JavaScript*
-
-To reproduce the shademap you will need the following resources:
-
-.. code-block:: console
-
-    CityGML|LiDAR|Treecadastre

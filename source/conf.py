@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'shademap-readthedocs'
-copyright = '2025, JonathanLandwehr'
-author = 'JonathanLandwehr'
+copyright = '2025, Institute for regional and urban development Dortmund'
+author = 'Jonathan Landwehr'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

@@ -19,7 +19,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Resources" href="Resources.html" />
+    <link rel="next" title="2. Getting Started" href="Getting_Started.html" />
     <link rel="prev" title="Welcome to the shademap-readthedocs documentation!" href="index.html" /> 
 </head>
 
@@ -45,11 +45,11 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">1. Introduction</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#aim">Aim</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#results">Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aim">1.1 Aim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#results">1.2 Results</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="Resources.html">Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Getting_Started.html">2. Getting Started</a></li>
 </ul>
 
         </div>
@@ -82,18 +82,14 @@
 <p>This documentation guides through an approach to address this issue by visualising and quantifying urban shadow. Urban Shadow Modelling involves the precise simulation and analysis of shadow cast by urban structures such as buildings and trees. The process involves a combination of advanced geospatial data, processing methods and recording technologies, including high-resolution airborne imagery, Light Detection and Ranging (LiDAR), Geographic Information Systems (GIS), as well as open-source coding tools for three-dimensional urban modelling. The project was conducted in the context of the project <a class="reference external" href="https://catch4d.de/">CATCH4D</a>.</p>
 <p>Two main data sources are used to conduct this work, which are the <strong>3D building data in CityGML format</strong> and the <strong>2D vegetation cadastre layer in shapefile format</strong>. Additionally, <strong>LiDAR data</strong> is used to generate a normalised digital elevation model (nDSM), which is later used to extract the actual height values to the tree point layer. The calculation of the shadow cast is done by ESRIS shadow cast widget from the <a class="reference external" href="https://developers.arcgis.com/javascript/latest/api-reference/esri-widgets-ShadowCast.html#methods-summary">ArcGIS API for JavaScript</a>.</p>
 <section id="aim">
-<h2>Aim<a class="headerlink" href="#aim" title="Link to this heading"></a></h2>
+<h2>1.1 Aim<a class="headerlink" href="#aim" title="Link to this heading"></a></h2>
 <p>This approach is aiming to generate a threedimensional and interactive web map of the <strong>city of Dortmund</strong>, built upon an preexisting 3D building model in LoD2 format. For a precise shadow analysis and estimation of shaded areas in a city, the approach also includes the generation and visualization of a 3D tree dataset. The overall aim of this documentation is to serve as a guided workflow, to <strong>replicate the shadowmap for other cities</strong>.</p>
 </section>
 <section id="results">
-<h2>Results<a class="headerlink" href="#results" title="Link to this heading"></a></h2>
+<h2>1.2 Results<a class="headerlink" href="#results" title="Link to this heading"></a></h2>
 <p>The result of this approach is a three-dimensional web representation of the <strong>city of Dortmund</strong>, with the extended option of visualising the urban shadow cast of trees and buildings. Individual parameters such as <strong>date</strong> and <strong>time</strong> can be set individually by the user. Thus, it is possible to <strong>a) visualize the shadow</strong> and <strong>b) understand the exact time of the shadow at a certain place.</strong></p>
 <p>The results demonstrate that urban shadow modelling is an effective method of identifying frequently shaded and cool areas in urban areas. It provides valuable insights for targeted interventions in areas where temperatures are exceptionally high in summer. Besides shadow visualization, a tree-planting tool is integrated, allowing users to plant trees virtually in sparsely vegetated areas to realise “what-if” planning scenarios. It provides an intuitive way for both residents and city planners to localise “cold spots”.</p>
 <p><strong>Keywords:</strong> <em>Urban Shadow Modelling, 3D Modelling at city scale, Urban Vegetation Modelling, Interactive Web Map, LiDAR, ArcGIS SDK for JavaScript</em></p>
-<p>To reproduce the shademap you will need the following resources:</p>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">CityGML|LiDAR|Treecadastre</span>
-</pre></div>
-</div>
 </section>
 </section>
 
@@ -102,13 +98,13 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="index.html" class="btn btn-neutral float-left" title="Welcome to the shademap-readthedocs documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="Resources.html" class="btn btn-neutral float-right" title="Resources" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Getting_Started.html" class="btn btn-neutral float-right" title="2. Getting Started" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Copyright 2025, JonathanLandwehr.</p>
+    <p>&#169; Copyright 2025, Institute for regional and urban development Dortmund.</p>
   </div>
 
   Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a

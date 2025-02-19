@@ -10,7 +10,7 @@ This is a start to finish **tutorial**, to *reproduce* the `3D shademap <https:/
 
 
 .. note::
-   This project is under active development.
+   This documentation is under active development.
 
 Add your content using ``reStructuredText`` syntax. See the
 `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
