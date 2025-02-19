@@ -27,4 +27,4 @@ Contents
 .. toctree::
 
    Introduction
-   Resources
+   Getting_Started
