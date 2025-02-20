@@ -6,6 +6,12 @@
 Welcome to the shademap-readthedocs documentation!
 ==================================================
 
+.. image:: _static/logo4.jpg
+   :alt: shademap
+   :width: 100%  
+   :align: center  
+
+
 This is a start to finish **tutorial**, to *reproduce* the `3D shademap <https://shadowmap.catch4d.de/iframe.html>`_.
 
 

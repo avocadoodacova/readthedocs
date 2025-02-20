@@ -12,7 +12,7 @@
 
     1. Text editor: `Notepad++ <https://notepad-plus-plus.org/downloads/>`_
     2. Python IDE: `Spyder <https://www.spyder-ide.org/>`_
-    3. Processing 3D building data: `3dcitydb <https://www.3dcitydb.org/3dcitydb/>`_ and `pgAdmin <https://www.pgadmin.org/>`_
+    3. Processing 3D building data: `3dcitydb <https://www.3dcitydb.org/3dcitydb/downloads/>`_ and `pgAdmin <https://www.pgadmin.org/>`_
     4. Processing LiDAR data:  `LAStools <https://rapidlasso.de/downloads/>`_ 
 
 2.3 Required Data
@@ -29,7 +29,7 @@
 ----------------------------------------
 
     1. Open ArcGIS Pro
-    2. In the left pane, navigate to --> Licensing
+    2. In the left pane navigate to --> Licensing
     3. Klick "Manage your data licensing"
     4. In the context menu "ArcGIS Pro Extensions" select the following extensions
 
@@ -39,3 +39,20 @@
         - `Publisher <https://pro.arcgis.com/en/pro-app/latest/help/sharing/overview/what-is-publisher.htm>`_ --> Enables the sharing of data throughout the ArcGIS Platform. Important for sharing your data in the ArcGIS online account.
         - `Spatial Analyst <https://pro.arcgis.com/en/pro-app/latest/help/analysis/spatial-analyst/basics/get-started-with-spatial-analyst-in-arcgis-pro.htm>`_ --> Provides advanced spatial modeling and analysis tools for raster data. Important for the analysis of raster layers.
     
+2.5 Create an ArcGIS Online account
+-----------------------------------
+
+    1. Open `ArcGIS online <https://www.arcgis.com/index.html>`_
+    2. Click **sign in** and then **create an account** or sign in if you already have an account.
+
+    Once you've created an account and singend in successfully, you can manage your data within the **content** tab in the **menu bar** at the top of the page. 
+
+2.6 Installing the 3dcitydb software
+------------------------------------
+
+    1. Open `3dcitydb <https://www.3dcitydb.org/3dcitydb/downloads/>`_
+    2. Download the installer package. 
+
+.. note:: 
+    
+    Make sure Java version 11 or higher (e.g. `Oracle JDK <https://www.oracle.com/java/technologies/downloads/#java11?er=221886>`_ or `Open JDK <https://adoptopenjdk.net/releases.html>`_) is installed on your system. To check type **cmd** in your windows search bar and enter the command **java --version** and press enter. 
