@@ -62,7 +62,6 @@ In order to conduct the workflow properly, all of the following software need to
 
         If you don't see anything, you need to install Java first. 
         
-
 3.5 Installing the pgAdmin software
 -----------------------------------
 
@@ -76,8 +75,6 @@ In order to conduct the workflow properly, all of the following software need to
     1. Open `LAStools <https://rapidlasso.de/downloads/>`_ in your browser.
     2. Extract the downloaded folder **LAStools.zip** and copy it to a directory of your choice.
     3. In this tutorial only the file **laszip64.exe** is used. You can find it here: **LAStools --> bin --> laszip64**.
-
-
 
     .. note:: 
 

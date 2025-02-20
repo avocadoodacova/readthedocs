@@ -28,11 +28,6 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
-Contents
---------
-
-.. toctree::
-
    Introduction
    Getting_Started
    mandatory_installations
