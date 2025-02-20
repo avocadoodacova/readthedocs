@@ -78,4 +78,4 @@ In order to conduct the workflow properly, all of the following software need to
 
     .. note:: 
 
-        After successfully downloading and installing all the above mentioned Software and tools the next step is downloading the data for the map. Klick **Next** to continue.
+        After successfully downloading and installing all the above mentioned software and tools the next step is downloading the data for the map. Klick **Next** to continue.
