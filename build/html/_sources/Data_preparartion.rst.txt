@@ -1,2 +1,0 @@
-3. Download and preprocessing of data
-=====================================
