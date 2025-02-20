@@ -1,6 +1,8 @@
 2. Getting Started
 ==================
 
+To conduct all steps for the generation of the shademap, a view preparations are mandatory before the start.
+
 2.1 Recommended installation of ArcGIS Pro and extensions
 ---------------------------------------------------------
     1. ArcGIS Pro Version: 3.3.2 or higher.
@@ -10,10 +12,9 @@
 2.2 Recommended Installation of open-source software
 ----------------------------------------------------
 
-    1. Text editor: `Notepad++ <https://notepad-plus-plus.org/downloads/>`_
-    2. Python IDE: `Spyder <https://www.spyder-ide.org/>`_
-    3. Processing 3D building data: `3dcitydb <https://www.3dcitydb.org/3dcitydb/downloads/>`_ and `pgAdmin <https://www.pgadmin.org/>`_
-    4. Processing LiDAR data:  `LAStools <https://rapidlasso.de/downloads/>`_ 
+    1. Text editor (for the generation of the html structure): `Notepad++ <https://notepad-plus-plus.org/downloads/>`_
+    2. Processing 3D building data: `3dcitydb <https://www.3dcitydb.org/3dcitydb/downloads/>`_ and `pgAdmin <https://www.pgadmin.org/>`_
+    3. Processing LiDAR data:  `LAStools <https://rapidlasso.de/downloads/>`_ 
 
 2.3 Required Data
 -----------------
@@ -42,26 +43,46 @@
 2.5 Create an ArcGIS Online account
 -----------------------------------
 
-    1. Open `ArcGIS online <https://www.arcgis.com/index.html>`_
-    2. Click **sign in** and then **create an account** or sign in if you already have an account.
+    1. Open `ArcGIS online <https://www.arcgis.com/index.html>`_ in your browser.
+    2. Click **sign in** and then **create an account** or **sign in** if you already have an account.
 
     Once you've created an account and singend in successfully, you can manage your data within the **content** tab in the **menu bar** at the top of the page. 
 
-2.6 Installing the 3dcitydb software
-------------------------------------
+2.6 Installing the text editor Notepad++
+----------------------------------------
 
-    1. Open `3dcitydb <https://www.3dcitydb.org/3dcitydb/downloads/>`_
-    2. Download the installer package. 
-
-.. note:: 
-
-    Make sure Java version 11 or higher (e.g. `Oracle JDK <https://www.oracle.com/java/technologies/downloads/#java11?er=221886>`_ or `Open JDK <https://adoptopenjdk.net/releases.html>`_) is installed on your system. To check type **cmd** in your windows search bar and enter the command **java --version** and press enter. 
-
+    1. Open `Notepad++ <https://notepad-plus-plus.org/downloads/>`_ in your browser.
+    2. Download the latest installer package 
     3. Open the downloaded installer package and follow the instructions of the installation wizard.
 
-2.7 Installing the pgAdmin software
+
+2.7 Installing the 3dcitydb software
+------------------------------------
+
+    1. Open `3dcitydb <https://www.3dcitydb.org/3dcitydb/downloads/>`_ in your browser.
+    2. Download the latest installer package. 
+    3. Open the downloaded installer package and follow the instructions of the installation wizard.
+
+    .. note:: 
+
+        Make sure Java version 11 or higher (e.g. `Oracle JDK <https://www.oracle.com/java/technologies/downloads/#java11?er=221886>`_ or `Open JDK <https://adoptopenjdk.net/releases.html>`_) is installed on your system. To check type **cmd** in your windows search bar and enter the command **java --version** and press enter.
+
+2.8 Installing the pgAdmin software
 -----------------------------------
 
-    1. Open `pgAdmin <https://www.pgadmin.org/download/>`_
-    2. Choose your operating system and download the corresponding installation package
+    1. Open `pgAdmin <https://www.pgadmin.org/download/>`_ in your browser.
+    2. Choose your operating system and download the corresponding installation package.
     3. Open the downloaded installer package and follow the instructions of the insallation wizard.
+
+2.9 Downloading the LiDAR processing toolbox LAStools
+---------------------------------------------------
+
+    1. Open `LAStools <https://rapidlasso.de/downloads/>`_ in your browser.
+    2. Extract the downloaded folder **LAStools.zip** and copy it to a directory of your choice.
+    3. In this tutorial only the file **laszip64.exe** is used. You can find it here: **LAStools --> bin --> laszip64**.
+
+
+
+    .. note:: 
+
+        After successfully downloading and installing all the above mentioned Software and tools the next step is downloading the data for the map. Klick **Next** to continue.

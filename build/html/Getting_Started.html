@@ -50,7 +50,10 @@
 <li class="toctree-l2"><a class="reference internal" href="#required-data">2.3 Required Data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#installing-the-arcgis-pro-extensions">2.4 Installing the ArcGIS Pro extensions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#create-an-arcgis-online-account">2.5 Create an ArcGIS Online account</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#installing-the-3dcitydb-software">2.6 Installing the 3dcitydb software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installing-the-text-editor-notepad">2.6 Installing the text editor Notepad++</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installing-the-3dcitydb-software">2.7 Installing the 3dcitydb software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installing-the-pgadmin-software">2.8 Installing the pgAdmin software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#downloading-the-lidar-processing-tools-lastools">2.9 Downloading the LiDAR processing tools LAStools</a></li>
 </ul>
 </li>
 </ul>
@@ -81,6 +84,7 @@
              
   <section id="getting-started">
 <h1>2. Getting Started<a class="headerlink" href="#getting-started" title="Link to this heading"></a></h1>
+<p>To conduct all steps for the generation of the shademap, a view preparations are mandatory before the start.</p>
 <section id="recommended-installation-of-arcgis-pro-and-extensions">
 <h2>2.1 Recommended installation of ArcGIS Pro and extensions<a class="headerlink" href="#recommended-installation-of-arcgis-pro-and-extensions" title="Link to this heading"></a></h2>
 <blockquote>
@@ -95,8 +99,7 @@
 <h2>2.2 Recommended Installation of open-source software<a class="headerlink" href="#recommended-installation-of-open-source-software" title="Link to this heading"></a></h2>
 <blockquote>
 <div><ol class="arabic simple">
-<li><p>Text editor: <a class="reference external" href="https://notepad-plus-plus.org/downloads/">Notepad++</a></p></li>
-<li><p>Python IDE: <a class="reference external" href="https://www.spyder-ide.org/">Spyder</a></p></li>
+<li><p>Text editor (for the generation of the html structure): <a class="reference external" href="https://notepad-plus-plus.org/downloads/">Notepad++</a></p></li>
 <li><p>Processing 3D building data: <a class="reference external" href="https://www.3dcitydb.org/3dcitydb/downloads/">3dcitydb</a> and <a class="reference external" href="https://www.pgadmin.org/">pgAdmin</a></p></li>
 <li><p>Processing LiDAR data:  <a class="reference external" href="https://rapidlasso.de/downloads/">LAStools</a></p></li>
 </ol>
@@ -141,24 +144,59 @@
 <h2>2.5 Create an ArcGIS Online account<a class="headerlink" href="#create-an-arcgis-online-account" title="Link to this heading"></a></h2>
 <blockquote>
 <div><ol class="arabic simple">
-<li><p>Open <a class="reference external" href="https://www.arcgis.com/index.html">ArcGIS online</a></p></li>
-<li><p>Click <strong>sign in</strong> and then <strong>create an account</strong> or sign in if you already have an account.</p></li>
+<li><p>Open <a class="reference external" href="https://www.arcgis.com/index.html">ArcGIS online</a> in your browser.</p></li>
+<li><p>Click <strong>sign in</strong> and then <strong>create an account</strong> or <strong>sign in</strong> if you already have an account.</p></li>
 </ol>
 <p>Once you’ve created an account and singend in successfully, you can manage your data within the <strong>content</strong> tab in the <strong>menu bar</strong> at the top of the page.</p>
 </div></blockquote>
 </section>
-<section id="installing-the-3dcitydb-software">
-<h2>2.6 Installing the 3dcitydb software<a class="headerlink" href="#installing-the-3dcitydb-software" title="Link to this heading"></a></h2>
+<section id="installing-the-text-editor-notepad">
+<h2>2.6 Installing the text editor Notepad++<a class="headerlink" href="#installing-the-text-editor-notepad" title="Link to this heading"></a></h2>
 <blockquote>
 <div><ol class="arabic simple">
-<li><p>Open <a class="reference external" href="https://www.3dcitydb.org/3dcitydb/downloads/">3dcitydb</a></p></li>
-<li><p>Download the installer package.</p></li>
+<li><p>Open <a class="reference external" href="https://notepad-plus-plus.org/downloads/">Notepad++</a> in your browser.</p></li>
+<li><p>Download the latest installer package</p></li>
+<li><p>Open the downloaded installer package and follow the instructions of the installation wizard.</p></li>
 </ol>
 </div></blockquote>
+</section>
+<section id="installing-the-3dcitydb-software">
+<h2>2.7 Installing the 3dcitydb software<a class="headerlink" href="#installing-the-3dcitydb-software" title="Link to this heading"></a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Open <a class="reference external" href="https://www.3dcitydb.org/3dcitydb/downloads/">3dcitydb</a> in your browser.</p></li>
+<li><p>Download the latest installer package.</p></li>
+<li><p>Open the downloaded installer package and follow the instructions of the installation wizard.</p></li>
+</ol>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Make sure Java version 11 or higher (e.g. <a class="reference external" href="https://www.oracle.com/java/technologies/downloads/#java11?er=221886">Oracle JDK</a> or <a class="reference external" href="https://adoptopenjdk.net/releases.html">Open JDK</a>) is installed on your system. To check type <strong>cmd</strong> in your windows search bar and enter the command <strong>java –version</strong> and press enter.</p>
 </div>
+</div></blockquote>
+</section>
+<section id="installing-the-pgadmin-software">
+<h2>2.8 Installing the pgAdmin software<a class="headerlink" href="#installing-the-pgadmin-software" title="Link to this heading"></a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Open <a class="reference external" href="https://www.pgadmin.org/download/">pgAdmin</a> in your browser.</p></li>
+<li><p>Choose your operating system and download the corresponding installation package.</p></li>
+<li><p>Open the downloaded installer package and follow the instructions of the insallation wizard.</p></li>
+</ol>
+</div></blockquote>
+</section>
+<section id="downloading-the-lidar-processing-tools-lastools">
+<h2>2.9 Downloading the LiDAR processing tools LAStools<a class="headerlink" href="#downloading-the-lidar-processing-tools-lastools" title="Link to this heading"></a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Open <a class="reference external" href="https://rapidlasso.de/downloads/">LAStools</a> in your browser.</p></li>
+<li><p>Extract the downloaded folder <strong>LAStools.zip</strong> and copy it to a directory of your choice.</p></li>
+<li><p>In this tutorial only the file <strong>laszip64.exe</strong> is used. You can find it here: <strong>LAStools –&gt; bin –&gt; laszip64</strong>.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>After successfully downloading and installing all the above mentioned Software and tools the next step is downloading the data for the map. Klick <strong>Next</strong> to continue.</p>
+</div>
+</div></blockquote>
 </section>
 </section>
 

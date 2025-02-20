@@ -12,7 +12,7 @@ Welcome to the shademap-readthedocs documentation!
    :align: center  
 
 
-This is a start to finish **tutorial**, to *reproduce* the `3D shademap <https://shadowmap.catch4d.de/iframe.html>`_.
+This is a start to finish **tutorial**, to *reproduce* the `3D shademap <https://shadowmap.catch4d.de/iframe.html>`_. 
 
 
 .. note::
@@ -34,3 +34,4 @@ Contents
 
    Introduction
    Getting_Started
+   Data_preparation
