@@ -23,4 +23,5 @@ The results demonstrate that urban shadow modelling is an effective method of id
 
 **Keywords:** *Urban Shadow Modelling, 3D Modelling at city scale, Urban Vegetation Modelling, Interactive Web Map, LiDAR, ArcGIS SDK for JavaScript*
 
-
+.. note::
+    Recommended disk space: 50GB
