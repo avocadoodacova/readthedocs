@@ -1,5 +1,5 @@
-3. Mandatory Software Installation
-==================================
+3. Mandatory Software 
+=====================
 
 In order to conduct the workflow properly, all of the following software need to be successfully downloaded and installed to your local machine.
 
@@ -42,7 +42,7 @@ In order to conduct the workflow properly, all of the following software need to
 
     .. note:: 
 
-        Make sure Java version 11 or higher (e.g. `Oracle JDK <https://www.oracle.com/java/technologies/downloads/#java11?er=221886>`_ or `Open JDK <https://adoptopenjdk.net/releases.html>`_) is installed on your system. To check your current Java version type **cmd** in your windows search bar and enter the command **java - -version** and press enter.
+        Make sure Java version 11 or higher (e.g. `Oracle JDK <https://www.oracle.com/java/technologies/downloads/#java11?er=221886>`_ or `Open JDK <https://adoptopenjdk.net/releases.html>`_) is installed on your system. To check your current Java version type **cmd** in your search bar and enter the command **java - -version** and press enter.
 
     Like this:
 
@@ -58,9 +58,11 @@ In order to conduct the workflow properly, all of the following software need to
         OpenJDK Runtime Environment 
         OpenJDK 64-Bit Server VM 
 
+    Or something similar with **OracleJDK**, if you used Oracle instead of OpenJDK.
+
     .. note:: 
 
-        If you don't see anything, you need to install Java first. 
+        If you get no results at all, make sure to install either OracleJDK or OpenJDK.
         
 3.5 Installing the pgAdmin software
 -----------------------------------
