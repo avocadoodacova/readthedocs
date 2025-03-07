@@ -3,14 +3,14 @@
 
 To conduct all steps for the generation of the shademap, a view preparations are mandatory before starting.
 
-2.1 Recommended installation of ArcGIS Pro and extensions
+2.1 Installation of ArcGIS Pro and extensions
 ---------------------------------------------------------
 
     1. ArcGIS Pro Version: 3.3.2 or higher.
     2. ArcGIS Pro extensions: 3D Analyst, Data Interoperability, Data Reviewer, Geostatistical Analyst, Image Analyst, Publisher, Spatial Analyst.
     3. ArcGIS Online Account: `ArcGIS online <https://www.arcgis.com/index.html>`_
 
-2.2 Recommended Installation of open-source software
+2.2 Installation of open-source software
 ----------------------------------------------------
 
     1. Text editor (for the generation of the html structure): `Notepad++ <https://notepad-plus-plus.org/downloads/>`_
@@ -25,4 +25,4 @@ To conduct all steps for the generation of the shademap, a view preparations are
     3. Tree cadastre: `Open-data Dortmund <https://open-data.dortmund.de/explore/dataset/baumkataster/export/?disjunctive.ubz&disjunctive.statbezibe&disjunctive.stadtbezbe&disjunctive.sozialrbe&disjunctive.aktionsrbz&disjunctive.aktionsrnr&disjunctive.sozialrnr&disjunctive.stadtbeznr&disjunctive.statbeznr&disjunctive.ubznr&disjunctive.art_botani&disjunctive.art_deutsc&disjunctive.pflanzjahr&disjunctive.standalter&disjunctive.stammdurch&disjunctive.stammumfan&disjunctive.kronendurc>`_
 
     .. note::
-        The installation and setup of ArcGIS Pro and its extensions is not part of this documentation. Everything else is covered in the following steps. Please note that the following steps are only for the preparation and not to be used right away, but at a later point of the workflow.
+        The installation and setup of ArcGIS Pro and its extensions is not part of this documentation. Everything else is covered in the following steps. 

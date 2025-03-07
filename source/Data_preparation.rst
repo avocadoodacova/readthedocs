@@ -48,6 +48,8 @@
         :width: 100%
         :align: center
 
+[change picture]
+
 **Tree cadastre data (geojson)**
 
         - Open the `Geoportal of the city of Dortmund <https://dortmund.opendatasoft.com/explore/dataset/baumkataster/information/?disjunctive.ubz&disjunctive.statbezibe&disjunctive.stadtbezbe&disjunctive.sozialrbe&disjunctive.aktionsrbz&disjunctive.aktionsrnr&disjunctive.sozialrnr&disjunctive.stadtbeznr&disjunctive.statbeznr&disjunctive.ubznr&disjunctive.art_botani&disjunctive.art_deutsc&disjunctive.pflanzjahr&disjunctive.standalter&disjunctive.stammdurch&disjunctive.stammumfan&disjunctive.kronendurc&location=18,51.50979,7.47071&basemap=a8bade>`_.

@@ -3,8 +3,8 @@
 
 In order to conduct the workflow properly, all of the following software need to be successfully downloaded and installed to your local machine.
 
-3.1 Installing the ArcGIS Pro extensions
-----------------------------------------
+3.1 ArcGIS Pro extensions
+-------------------------
 
     1. Open ArcGIS Pro
     2. In the left pane navigate to --> Licensing
@@ -17,24 +17,24 @@ In order to conduct the workflow properly, all of the following software need to
         - `Publisher <https://pro.arcgis.com/en/pro-app/latest/help/sharing/overview/what-is-publisher.htm>`_ --> Enables the sharing of data throughout the ArcGIS Platform. Important for sharing your data in the ArcGIS online account.
         - `Spatial Analyst <https://pro.arcgis.com/en/pro-app/latest/help/analysis/spatial-analyst/basics/get-started-with-spatial-analyst-in-arcgis-pro.htm>`_ --> Provides advanced spatial modeling and analysis tools for raster data. Important for the analysis of raster layers.
     
-3.2 Create an ArcGIS Online account
------------------------------------
+3.2 ArcGIS Online account
+-------------------------
 
     1. Open `ArcGIS online <https://www.arcgis.com/index.html>`_ in your browser.
     2. Click **sign in** and then **create an account** or **sign in** if you already have an account.
 
     Once you've created an account and singend in successfully, you can manage your data within the **content** tab in the **menu bar** at the top of the page. 
 
-3.3 Installing the text editor Notepad++
-----------------------------------------
+3.3 Text editor Notepad++
+-------------------------
 
     1. Open `Notepad++ <https://notepad-plus-plus.org/downloads/>`_ in your browser.
     2. Download the latest installer package 
     3. Open the downloaded installer package and follow the instructions of the installation wizard.
 
 
-3.4 Installing the 3dcitydb software
-------------------------------------
+3.4 3dcitydb
+------------
 
     1. Open `3dcitydb <https://www.3dcitydb.org/3dcitydb/downloads/>`_ in your browser.
     2. Download the latest installer package. 
@@ -64,15 +64,15 @@ In order to conduct the workflow properly, all of the following software need to
 
         If you get no results at all, make sure to install either OracleJDK or OpenJDK.
         
-3.5 Installing the pgAdmin software
------------------------------------
+3.5 pgAdmin
+-----------
 
     1. Open `pgAdmin <https://www.pgadmin.org/download/>`_ in your browser.
     2. Choose your operating system and download the corresponding installation package.
     3. Open the downloaded installer package and follow the instructions of the insallation wizard.
 
-3.6 Downloading the LiDAR processing toolbox LAStools
------------------------------------------------------
+3.6 LiDAR processing toolbox LAStools
+-------------------------------------
 
     1. Open `LAStools <https://rapidlasso.de/downloads/>`_ in your browser.
     2. Extract the downloaded folder **LAStools.zip** and copy it to a directory of your choice.
